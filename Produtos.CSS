@@ -46,3 +46,27 @@ header{
     font-size: 30px   
     font-weight bold
 }
+
+.input-padrao{
+      display: block;
+      margin: 0 0 20px;
+      padding: 10px 25px;
+      width: 50%;
+}
+
+.enviar {
+     width:40;
+     padding: 15px 0;
+     background-color: bisque;
+     color: antiquewhite;
+     font-weight: bold; 
+     font-size: 18px;
+     transition: 1s all;
+     cursor: pointer;
+}   
+ 
+enviar:hover {
+    background-color: aqua;
+    transform: scale(1.2);
+    transform: rotate(70deg);
+}
